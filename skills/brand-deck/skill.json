@@ -1,0 +1,14 @@
+{
+    "name": "brand-deck",
+    "version": "1.0.0",
+    "summary": "Produce a brand-consistent slide outline from a topic prompt.",
+    "description": "Turns a topic into a structured deck outline (title, agenda, 5-7 sections, CTA) using brand tone.",
+    "tags": ["deck", "slides", "marketing"],
+    "matchers": [
+      { "includes": ["deck"], "weight": 0.9 },
+      { "includes": ["slides"], "weight": 0.8 },
+      { "includes": ["presentation"], "weight": 0.7 }
+    ],
+    "module": "index.js"
+  }
+  

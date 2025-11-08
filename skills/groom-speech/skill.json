@@ -1,0 +1,13 @@
+{
+    "name": "groom-speech",
+    "version": "1.0.0",
+    "summary": "Craft a heartfelt, witty groom's speech.",
+    "description": "Generates a speech using a tasteful arc and brief anecdotes.",
+    "tags": ["speech", "wedding"],
+    "matchers": [
+      { "includes": ["groom", "speech"], "weight": 0.95 },
+      { "includes": ["wedding"], "weight": 0.8 }
+    ],
+    "module": "index.js"
+  }
+  
