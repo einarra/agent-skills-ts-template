@@ -5,7 +5,7 @@ A lightweight, production-ready TypeScript “Skills” framework you can drop i
 
 I’ll give you:
 
-1.a tiny core library,
+1. a tiny core library,
 
 2. a filesystem/URL loader,
 
